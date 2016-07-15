@@ -1,5 +1,4 @@
-FROM alpine
-MAINTAINER Feng Honglin <hfeng@tutum.co>
+FROM hypriot/rpi-alpine-scratch
 
 ENV DOCKER_ROOT_DIR /var/lib/docker/
 ENV IMAGE_CLEAN_INTERVAL 1
